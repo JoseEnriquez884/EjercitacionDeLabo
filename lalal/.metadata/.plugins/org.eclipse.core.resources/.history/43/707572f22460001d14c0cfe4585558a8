@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+typedef struct
+{
+    int id;
+    char nombre[20];
+    char apellido[20];
+    char sexo;
+    float altura;
+} ePersona;
+
+ePersona* newPersona();
+ePersona* newPersonaParam(int id, char nombre[],char apellido[], char sexo, float altura);
+ePersona* newPersonaString(char* id, char* nombre ,char* apellido, char* sexo, char* altura);
+
+int mostrarPersona(ePersona* p);
+
+// getters y setters
+int personaSetId(ePersona* p, int id);
+int personaSetNombre(ePersona* p, char nombre[]);
+int personaSetApellido(ePersona* p, char apellido[]);
+int personaSetSexo(ePersona* p, char sexo);
+int personaSetAltura(ePersona* p, float altura);
+//-----------------------------------------------
+int personaGetId(ePersona* p, int* pId);
+int personaGetSexoString(ePersona* p, char sexo[]);
+int personaGetSexo(ePersona* p, char* pSexo);
+int personaGetFullName(ePersona* p, char fullName[]);

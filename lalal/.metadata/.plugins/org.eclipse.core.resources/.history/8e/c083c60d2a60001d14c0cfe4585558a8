@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+typedef struct
+{
+	int id;
+	char nombre[20];
+	char apellido[20];
+	char sexo;
+	float altura;
+}ePersona;
+ePersona* newPersona();
+ePersona* newPersonaConParametros(int id,char nombre[],char apellido[],char sexo,float altura);
+ePersona* newPersonaString(char* id,char* nombre,char* apellido,char* sexo,char* altura);//HACER
+int personaGetId(ePersona* pPersona,int* id);
+int persona_GetNombre(ePersona* pPersona,char* nombre);
+int personaGetapellido(ePersona* pPersona, char* apellido);
+int personaGetSexo(ePersona* pPersona,char* sexo);
+int personaGetAltura(ePersona* pPersona,float* altura);
+int persona_GetFullName(ePersona* pPersona,char* fullName);
+
+
+void freePersona(ePersona* pPersona);
+
+int persona_SetId(ePersona* pPersona,int id);
+int persona_SetNombre(ePersona* pPersona,char* nombre);
+int persona_SetApellido(ePersona* pPersona,char* apellido);
+int persona_SetSexo(ePersona* pPersona,char sexo);
+int persona_SetAltura(ePersona* pPersona,float altura);
+int persona_MotrarUna(ePersona*);

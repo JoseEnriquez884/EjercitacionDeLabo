@@ -1,0 +1,822 @@
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+08:52:13 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+09:00:53 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'mostrarPersona':
+..\src\persona.c:31:26: error: incompatible type for argument 2 of 'personaGetAltura'
+      personaGetAltura(p, altura)))
+                          ^~~~~~
+In file included from ..\src\persona.c:1:0:
+..\src\persona.h:33:5: note: expected 'float *' but argument is of type 'float'
+ int personaGetAltura(ePersona* p, float* pAltura);
+     ^~~~~~~~~~~~~~~~
+09:01:23 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+09:02:50 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+..\src\claseLabo.c: In function 'main':
+..\src\claseLabo.c:26:10: warning: unused variable 'auxCad' [-Wunused-variable]
+     char auxCad[100];
+          ^~~~~~
+..\src\claseLabo.c:25:9: warning: unused variable 'id' [-Wunused-variable]
+     int id;
+         ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+09:04:35 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+..\src\claseLabo.c: In function 'main':
+..\src\claseLabo.c:26:10: warning: unused variable 'auxCad' [-Wunused-variable]
+     char auxCad[100];
+          ^~~~~~
+..\src\claseLabo.c:25:9: warning: unused variable 'id' [-Wunused-variable]
+     int id;
+         ^~
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:06:25 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+..\src\claseLabo.c: In function 'main':
+..\src\claseLabo.c:26:10: warning: unused variable 'auxCad' [-Wunused-variable]
+     char auxCad[100];
+          ^~~~~~
+..\src\claseLabo.c:25:9: warning: unused variable 'id' [-Wunused-variable]
+     int id;
+         ^~
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:07:02 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:09:22 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:09:50 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:22:02 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:1:0:
+..\src\persona.h:17:53: error: expected ';', ',' or ')' before '*' token
+ int persona_GetNombre(ePersona* pPersona,char nombre*);
+                                                     ^
+..\src\persona.h: In function 'personaGetapellido':
+..\src\persona.h:19:49: error: expected ';', ',' or ')' before '*' token
+ int persona_GetSexo(ePersona* pPersona,char sexo*);
+                                                 ^
+..\src\persona.h:21:57: error: expected ';', ',' or ')' before '*' token
+ int persona_GetFullName(ePersona* pPersona,char fullName*);
+                                                         ^
+..\src\persona.h:24:53: error: expected ';', ',' or ')' before '*' token
+ int persona_SetNombre(ePersona* pPersona,char nombre*);
+                                                     ^
+..\src\persona.h:25:57: error: expected ';', ',' or ')' before '*' token
+ int persona_SetApellido(ePersona* pPersona,char apellido*);
+                                                         ^
+..\src\persona.c:3:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:20:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:32:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:42:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:58:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:68:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:78:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:88:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:100:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:112:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:123:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:133:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:143:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:158:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:180:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from ..\src\persona.c:1:0:
+..\src\persona.h:18:5: error: old-style parameter declarations in prototyped function definition
+ int personaGetapellido(ePersona* p, char* apellido)
+     ^~~~~~~~~~~~~~~~~~
+..\src\persona.c:191:1: error: expected '{' at end of input
+ }
+ ^
+..\src\persona.c:191:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+09:24:39 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:1:0:
+..\src\persona.h:17:53: error: expected ';', ',' or ')' before '*' token
+ int persona_GetNombre(ePersona* pPersona,char nombre*);
+                                                     ^
+..\src\persona.h: In function 'personaGetapellido':
+..\src\persona.h:19:49: error: expected ';', ',' or ')' before '*' token
+ int persona_GetSexo(ePersona* pPersona,char sexo*);
+                                                 ^
+..\src\persona.h:21:57: error: expected ';', ',' or ')' before '*' token
+ int persona_GetFullName(ePersona* pPersona,char fullName*);
+                                                         ^
+..\src\persona.h:27:53: error: expected ';', ',' or ')' before '*' token
+ int persona_SetNombre(ePersona* pPersona,char nombre*);
+                                                     ^
+..\src\persona.h:28:57: error: expected ';', ',' or ')' before '*' token
+ int persona_SetApellido(ePersona* pPersona,char apellido*);
+                                                         ^
+..\src\persona.c:3:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:7:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:24:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:36:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:46:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:62:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:72:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:82:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:92:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:104:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:116:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:127:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:137:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:147:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:162:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:184:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from ..\src\persona.c:1:0:
+..\src\persona.h:18:5: error: old-style parameter declarations in prototyped function definition
+ int personaGetapellido(ePersona* pPersona, char* apellido)
+     ^~~~~~~~~~~~~~~~~~
+..\src\persona.c:195:1: error: expected '{' at end of input
+ }
+ ^
+..\src\persona.c:195:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+09:24:53 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+In file included from ..\src\claseLabo.c:1:0:
+..\src\persona.h:17:53: error: expected ';', ',' or ')' before '*' token
+ int persona_GetNombre(ePersona* pPersona,char nombre*);
+                                                     ^
+..\src\persona.h: In function 'personaGetapellido':
+..\src\persona.h:19:49: error: expected ';', ',' or ')' before '*' token
+ int persona_GetSexo(ePersona* pPersona,char sexo*);
+                                                 ^
+..\src\persona.h:21:57: error: expected ';', ',' or ')' before '*' token
+ int persona_GetFullName(ePersona* pPersona,char fullName*);
+                                                         ^
+..\src\persona.h:27:53: error: expected ';', ',' or ')' before '*' token
+ int persona_SetNombre(ePersona* pPersona,char nombre*);
+                                                     ^
+..\src\persona.h:28:57: error: expected ';', ',' or ')' before '*' token
+ int persona_SetApellido(ePersona* pPersona,char apellido*);
+                                                         ^
+..\src\claseLabo.c:3:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from ..\src\claseLabo.c:1:0:
+..\src\persona.h:18:5: error: old-style parameter declarations in prototyped function definition
+ int personaGetapellido(ePersona* pPersona, char* apellido)
+     ^~~~~~~~~~~~~~~~~~
+..\src\claseLabo.c:13:1: error: expected '{' at end of input
+ }
+ ^
+..\src\claseLabo.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+09:25:23 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:1:0:
+..\src\persona.h:17:53: error: expected ';', ',' or ')' before '*' token
+ int persona_GetNombre(ePersona* pPersona,char nombre*);
+                                                     ^
+..\src\persona.h: In function 'personaGetapellido':
+..\src\persona.h:19:49: error: expected ';', ',' or ')' before '*' token
+ int persona_GetSexo(ePersona* pPersona,char sexo*);
+                                                 ^
+..\src\persona.h:21:57: error: expected ';', ',' or ')' before '*' token
+ int persona_GetFullName(ePersona* pPersona,char fullName*);
+                                                         ^
+..\src\persona.h:27:53: error: expected ';', ',' or ')' before '*' token
+ int persona_SetNombre(ePersona* pPersona,char nombre*);
+                                                     ^
+..\src\persona.h:28:57: error: expected ';', ',' or ')' before '*' token
+ int persona_SetApellido(ePersona* pPersona,char apellido*);
+                                                         ^
+..\src\persona.c:3:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:7:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:24:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:36:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:46:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:62:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:72:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:82:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:92:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:104:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:116:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:127:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:137:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:147:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:162:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:184:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\persona.c:197:1: error: expected declaration specifiers before '}' token
+ }
+ ^
+In file included from ..\src\persona.c:1:0:
+..\src\persona.h:18:5: error: old-style parameter declarations in prototyped function definition
+ int personaGetapellido(ePersona* pPersona, char* apellido)
+     ^~~~~~~~~~~~~~~~~~
+..\src\persona.c:197:1: error: expected '{' at end of input
+ }
+ ^
+..\src\persona.c:197:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+09:26:15 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:10:11: warning: variable 'alturaAux' set but not used [-Wunused-but-set-variable]
+     float alturaAux;
+           ^~~~~~~~~
+..\src\persona.c:9:9: warning: variable 'idAux' set but not used [-Wunused-but-set-variable]
+     int idAux;
+         ^~~~~
+..\src\persona.c: In function 'persona_MotrarUna':
+..\src\persona.c:171:9: warning: implicit declaration of function 'personaGetId' [-Wimplicit-function-declaration]
+      if(personaGetId(unaPersona, &id) &&
+         ^~~~~~~~~~~~
+..\src\persona.c:172:6: warning: implicit declaration of function 'personaGetNombre' [-Wimplicit-function-declaration]
+      personaGetNombre(p, nombre) &&
+      ^~~~~~~~~~~~~~~~
+..\src\persona.c:172:23: error: 'p' undeclared (first use in this function)
+      personaGetNombre(p, nombre) &&
+                       ^
+..\src\persona.c:172:23: note: each undeclared identifier is reported only once for each function it appears in
+..\src\persona.c:174:6: warning: implicit declaration of function 'personaGetSexo' [-Wimplicit-function-declaration]
+      personaGetSexo(p, &sexo) &&
+      ^~~~~~~~~~~~~~
+..\src\persona.c:175:6: warning: implicit declaration of function 'personaGetAltura' [-Wimplicit-function-declaration]
+      personaGetAltura(p, &altura))
+      ^~~~~~~~~~~~~~~~
+..\src\persona.c: At top level:
+..\src\persona.c:197:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+09:26:46 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:10:11: warning: variable 'alturaAux' set but not used [-Wunused-but-set-variable]
+     float alturaAux;
+           ^~~~~~~~~
+..\src\persona.c:9:9: warning: variable 'idAux' set but not used [-Wunused-but-set-variable]
+     int idAux;
+         ^~~~~
+..\src\persona.c: In function 'persona_MotrarUna':
+..\src\persona.c:171:9: warning: implicit declaration of function 'personaGetId' [-Wimplicit-function-declaration]
+      if(personaGetId(unaPersona, &id) &&
+         ^~~~~~~~~~~~
+..\src\persona.c:172:6: warning: implicit declaration of function 'personaGetNombre' [-Wimplicit-function-declaration]
+      personaGetNombre(p, nombre) &&
+      ^~~~~~~~~~~~~~~~
+..\src\persona.c:172:23: error: 'p' undeclared (first use in this function)
+      personaGetNombre(p, nombre) &&
+                       ^
+..\src\persona.c:172:23: note: each undeclared identifier is reported only once for each function it appears in
+..\src\persona.c:174:6: warning: implicit declaration of function 'personaGetSexo' [-Wimplicit-function-declaration]
+      personaGetSexo(p, &sexo) &&
+      ^~~~~~~~~~~~~~
+09:27:04 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:10:11: warning: variable 'alturaAux' set but not used [-Wunused-but-set-variable]
+     float alturaAux;
+           ^~~~~~~~~
+..\src\persona.c:9:9: warning: variable 'idAux' set but not used [-Wunused-but-set-variable]
+     int idAux;
+         ^~~~~
+..\src\persona.c: In function 'persona_MotrarUna':
+..\src\persona.c:171:9: warning: implicit declaration of function 'personaGetId' [-Wimplicit-function-declaration]
+      if(personaGetId(unaPersona, &id) &&
+         ^~~~~~~~~~~~
+..\src\persona.c:172:6: warning: implicit declaration of function 'personaGetNombre' [-Wimplicit-function-declaration]
+      personaGetNombre(p, nombre) &&
+      ^~~~~~~~~~~~~~~~
+..\src\persona.c:172:23: error: 'p' undeclared (first use in this function)
+      personaGetNombre(p, nombre) &&
+                       ^
+..\src\persona.c:172:23: note: each undeclared identifier is reported only once for each function it appears in
+09:27:23 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:10:11: warning: variable 'alturaAux' set but not used [-Wunused-but-set-variable]
+     float alturaAux;
+           ^~~~~~~~~
+..\src\persona.c:9:9: warning: variable 'idAux' set but not used [-Wunused-but-set-variable]
+     int idAux;
+         ^~~~~
+..\src\persona.c: In function 'persona_MotrarUna':
+..\src\persona.c:171:9: warning: implicit declaration of function 'personaGetId' [-Wimplicit-function-declaration]
+      if(personaGetId(unaPersona, &id) &&
+         ^~~~~~~~~~~~
+..\src\persona.c:172:6: warning: implicit declaration of function 'personaGetNombre' [-Wimplicit-function-declaration]
+      personaGetNombre(unaPersona, nombre) &&
+      ^~~~~~~~~~~~~~~~
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+src\persona.o: In function `persona_MotrarUna':
+C:\Users\alumno\Desktop\lalal\claseLabo\Debug/../src/persona.c:171: undefined reference to `personaGetId'
+C:\Users\alumno\Desktop\lalal\claseLabo\Debug/../src/persona.c:172: undefined reference to `personaGetNombre'
+collect2.exe: error: ld returned 1 exit status
+09:27:50 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:10:11: warning: variable 'alturaAux' set but not used [-Wunused-but-set-variable]
+     float alturaAux;
+           ^~~~~~~~~
+..\src\persona.c:9:9: warning: variable 'idAux' set but not used [-Wunused-but-set-variable]
+     int idAux;
+         ^~~~~
+..\src\persona.c: In function 'persona_MotrarUna':
+..\src\persona.c:172:6: warning: implicit declaration of function 'personaGetNombre' [-Wimplicit-function-declaration]
+      personaGetNombre(unaPersona, nombre) &&
+      ^~~~~~~~~~~~~~~~
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+src\persona.o: In function `persona_MotrarUna':
+C:\Users\alumno\Desktop\lalal\claseLabo\Debug/../src/persona.c:171: undefined reference to `personaGetId'
+C:\Users\alumno\Desktop\lalal\claseLabo\Debug/../src/persona.c:172: undefined reference to `personaGetNombre'
+collect2.exe: error: ld returned 1 exit status
+09:28:46 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:10:11: warning: variable 'alturaAux' set but not used [-Wunused-but-set-variable]
+     float alturaAux;
+           ^~~~~~~~~
+..\src\persona.c:9:9: warning: variable 'idAux' set but not used [-Wunused-but-set-variable]
+     int idAux;
+         ^~~~~
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+09:30:09 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:13:9: error: 'idAux' undeclared (first use in this function)
+         idAux=atoi(id);
+         ^~~~~
+..\src\persona.c:13:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\persona.c:14:9: error: 'alturaAux' undeclared (first use in this function)
+         alturaAux=atof(altura);
+         ^~~~~~~~~
+09:30:22 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:10:11: warning: variable 'alturaAux' set but not used [-Wunused-but-set-variable]
+     float alturaAux;
+           ^~~~~~~~~
+..\src\persona.c:9:9: warning: variable 'idAux' set but not used [-Wunused-but-set-variable]
+     int idAux;
+         ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+..\src\claseLabo.c: In function 'main':
+..\src\claseLabo.c:9:3: warning: implicit declaration of function 'persona_MotrarUna' [-Wimplicit-function-declaration]
+   persona_MotrarUna(pPersona);
+   ^~~~~~~~~~~~~~~~~
+..\src\claseLabo.c:10:3: warning: implicit declaration of function 'persona_SetNombre' [-Wimplicit-function-declaration]
+   persona_SetNombre(pPersona, "peDRO");
+   ^~~~~~~~~~~~~~~~~
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+src\claseLabo.o: In function `main':
+C:\Users\alumno\Desktop\lalal\claseLabo\Debug/../src/claseLabo.c:9: undefined reference to `persona_MotrarUna'
+C:\Users\alumno\Desktop\lalal\claseLabo\Debug/../src/claseLabo.c:10: undefined reference to `persona_SetNombre'
+C:\Users\alumno\Desktop\lalal\claseLabo\Debug/../src/claseLabo.c:11: undefined reference to `persona_MotrarUna'
+collect2.exe: error: ld returned 1 exit status
+09:30:34 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+09:34:02 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+09:39:16 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:41:56 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+09:42:51 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:43:13 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:43:30 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:51:02 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'newPersonaString':
+..\src\persona.c:13:9: warning: 'idAux' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         printf("%d\n\n",idAux);
+         ^~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:51:49 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:52:18 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:55:27 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+09:55:35 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+10:34:51 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from c:\mingw\include\string.h:53:0,
+                 from ..\src\persona.h:4,
+                 from ..\src\persona.c:1:
+..\src\persona.c: In function 'personaCompareId':
+..\src\persona.c:5:22: error: invalid initializer
+  ePersona unaPersona=NULL;
+                      ^
+..\src\persona.c:6:23: error: invalid initializer
+  ePersona otraPersona=NULL;
+                       ^
+..\src\persona.c:9:13: error: incompatible types when assigning to type 'ePersona {aka struct <anonymous>}' from type 'ePersona * {aka struct <anonymous> *}'
+   unaPersona=(ePersona*)primerPersona;
+             ^
+..\src\persona.c:10:14: error: incompatible types when assigning to type 'ePersona {aka struct <anonymous>}' from type 'ePersona * {aka struct <anonymous> *}'
+   otraPersona=(ePersona*)segundaPersona;
+              ^
+..\src\persona.c:11:16: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+   if(unaPersona->id > otraPersona->id)
+                ^~
+..\src\persona.c:11:34: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+   if(unaPersona->id > otraPersona->id)
+                                  ^~
+..\src\persona.c:16:17: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+    if(unaPersona->id < otraPersona->id)
+                 ^~
+..\src\persona.c:16:35: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+    if(unaPersona->id < otraPersona->id)
+                                   ^~
+10:35:13 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from c:\mingw\include\string.h:53:0,
+                 from ..\src\persona.h:4,
+                 from ..\src\persona.c:1:
+..\src\persona.c: In function 'personaCompareId':
+..\src\persona.c:5:22: error: invalid initializer
+  ePersona unaPersona=NULL;
+                      ^
+..\src\persona.c:6:23: error: invalid initializer
+  ePersona otraPersona=NULL;
+                       ^
+..\src\persona.c:9:13: error: incompatible types when assigning to type 'ePersona {aka struct <anonymous>}' from type 'ePersona * {aka struct <anonymous> *}'
+   unaPersona=(ePersona*)primerPersona;
+             ^
+..\src\persona.c:10:14: error: incompatible types when assigning to type 'ePersona {aka struct <anonymous>}' from type 'ePersona * {aka struct <anonymous> *}'
+   otraPersona=(ePersona*)segundaPersona;
+              ^
+..\src\persona.c:11:16: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+   if(unaPersona->id > otraPersona->id)
+                ^~
+..\src\persona.c:11:34: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+   if(unaPersona->id > otraPersona->id)
+                                  ^~
+..\src\persona.c:16:17: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+    if(unaPersona->id < otraPersona->id)
+                 ^~
+..\src\persona.c:16:35: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+    if(unaPersona->id < otraPersona->id)
+                                   ^~
+10:35:55 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaCompareId':
+..\src\persona.c:9:13: error: incompatible types when assigning to type 'ePersona {aka struct <anonymous>}' from type 'ePersona * {aka struct <anonymous> *}'
+   unaPersona=(ePersona*)primerPersona;
+             ^
+..\src\persona.c:10:14: error: incompatible types when assigning to type 'ePersona {aka struct <anonymous>}' from type 'ePersona * {aka struct <anonymous> *}'
+   otraPersona=(ePersona*)segundaPersona;
+              ^
+..\src\persona.c:11:16: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+   if(unaPersona->id > otraPersona->id)
+                ^~
+..\src\persona.c:11:34: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+   if(unaPersona->id > otraPersona->id)
+                                  ^~
+..\src\persona.c:16:17: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+    if(unaPersona->id < otraPersona->id)
+                 ^~
+..\src\persona.c:16:35: error: invalid type argument of '->' (have 'ePersona {aka struct <anonymous>}')
+    if(unaPersona->id < otraPersona->id)
+                                   ^~
+10:39:02 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+10:42:48 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaMotrarUna':
+..\src\persona.c:200:33: warning: passing argument 2 of 'personaGetSexo' makes pointer from integer without a cast [-Wint-conversion]
+      personaGetSexo(unaPersona, sexo) &&
+                                 ^~~~
+..\src\persona.c:71:5: note: expected 'char *' but argument is of type 'char'
+ int personaGetSexo(ePersona* pPersona,char sexo[])
+     ^~~~~~~~~~~~~~
+..\src\persona.c:200:6: warning: 'sexo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      personaGetSexo(unaPersona, sexo) &&
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+10:43:58 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaMotrarUna':
+..\src\persona.c:203:43: warning: format '%c' expects argument of type 'int', but argument 5 has type 'char *' [-Wformat=]
+       printf("id: %d Nombre: %s %s sexo: %c altura: %.2f\n",id,nombre,apellido, sexo, altura);
+                                           ^
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+10:44:10 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+10:45:45 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+10:48:12 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseLabo.o" "..\\src\\claseLabo.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+10:49:05 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+10:49:28 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaSetNombre':
+..\src\persona.c:134:31: warning: passing argument 1 of 'toupper' makes integer from pointer without a cast [-Wint-conversion]
+   pPersona->nombre[0]=toupper(pPersona->nombre+0);
+                               ^~~~~~~~
+In file included from ..\src\persona.h:3:0,
+                 from ..\src\persona.c:1:
+c:\mingw\include\ctype.h:96:38: note: expected 'int' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int toupper (int);
+                                      ^~~~~~~
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+10:49:37 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaSetNombre':
+..\src\persona.c:134:41: error: expected identifier before '(' token
+   pPersona->nombre[0]=toupper(pPersona->(nombre+0));
+                                         ^
+10:49:56 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaSetNombre':
+..\src\persona.c:134:30: warning: passing argument 1 of 'toupper' makes integer from pointer without a cast [-Wint-conversion]
+   pPersona->nombre+0=toupper(pPersona->nombre+0));
+                              ^~~~~~~~
+In file included from ..\src\persona.h:3:0,
+                 from ..\src\persona.c:1:
+c:\mingw\include\ctype.h:96:38: note: expected 'int' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int toupper (int);
+                                      ^~~~~~~
+..\src\persona.c:134:21: error: lvalue required as left operand of assignment
+   pPersona->nombre+0=toupper(pPersona->nombre+0));
+                     ^
+..\src\persona.c:134:49: error: expected ';' before ')' token
+   pPersona->nombre+0=toupper(pPersona->nombre+0));
+                                                 ^
+..\src\persona.c:134:49: error: expected statement before ')' token
+10:49:56 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaSetNombre':
+..\src\persona.c:134:30: warning: passing argument 1 of 'toupper' makes integer from pointer without a cast [-Wint-conversion]
+   pPersona->nombre+0=toupper(pPersona->nombre+0));
+                              ^~~~~~~~
+In file included from ..\src\persona.h:3:0,
+                 from ..\src\persona.c:1:
+c:\mingw\include\ctype.h:96:38: note: expected 'int' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int toupper (int);
+                                      ^~~~~~~
+..\src\persona.c:134:21: error: lvalue required as left operand of assignment
+   pPersona->nombre+0=toupper(pPersona->nombre+0));
+                     ^
+..\src\persona.c:134:49: error: expected ';' before ')' token
+   pPersona->nombre+0=toupper(pPersona->nombre+0));
+                                                 ^
+..\src\persona.c:134:49: error: expected statement before ')' token
+10:50:07 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaSetNombre':
+..\src\persona.c:134:30: warning: passing argument 1 of 'toupper' makes integer from pointer without a cast [-Wint-conversion]
+   pPersona->nombre+0=toupper(pPersona->nombre+0);
+                              ^~~~~~~~
+In file included from ..\src\persona.h:3:0,
+                 from ..\src\persona.c:1:
+c:\mingw\include\ctype.h:96:38: note: expected 'int' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int toupper (int);
+                                      ^~~~~~~
+..\src\persona.c:134:21: error: lvalue required as left operand of assignment
+   pPersona->nombre+0=toupper(pPersona->nombre+0);
+                     ^
+10:50:30 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaSetNombre':
+..\src\persona.c:134:13: error: expected identifier before '(' token
+   pPersona->(nombre+0)=toupper(pPersona->(nombre+0));
+             ^
+10:50:56 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'personaSetNombre':
+..\src\persona.c:134:14: error: expected identifier before '(' token
+   (pPersona->(nombre+0))=toupper(pPersona->(nombre+0));
+              ^
+..\src\persona.c:134:44: error: expected identifier before '(' token
+   (pPersona->(nombre+0))=toupper(pPersona->(nombre+0));
+                                            ^
+10:51:22 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+10:51:49 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo
+Info: Nothing to build for claseLabo
+10:54:38 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+11:02:30 **** Incremental Build of configuration Debug for project claseLabo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o claseLabo.exe "src\\claseLabo.o" "src\\persona.o" 
+Info: Nothing to build for claseLabo

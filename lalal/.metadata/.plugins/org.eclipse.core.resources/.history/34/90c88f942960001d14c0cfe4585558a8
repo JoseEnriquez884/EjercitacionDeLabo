@@ -1,0 +1,14 @@
+#include "persona.h"
+int main(void)
+{
+	ePersona* pPersona=newPersonaConParametros(25000, "pepe","rodriguez", 'm', 1.88);
+//	ePersona* pPersona=newPersona();
+	if(pPersona!=NULL)
+	{
+		persona_MotrarUna(pPersona);
+		persona_SetNombre(pPersona, "peDRO");
+		persona_MotrarUna(pPersona);
+	}
+	return EXIT_SUCCESS;
+}
+
